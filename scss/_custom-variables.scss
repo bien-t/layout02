@@ -1,1 +1,30 @@
-$blue: #000;
+//Typography
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+$main-font:"Poppins", sans-serif;
+$second-font:"Playfair Display", serif;
+$font-family-base: $main-font;
+$headings-font-family:  $second-font;
+//
+
+//Colors
+$orange: #FD9C6B;
+$brown: #160E0B;
+$primary: $orange;
+$secondary: $brown;
+$black: #000;
+
+
+
+// $btn-padding-x: 3rem;
+// $btn-padding-y: 0.75rem;
+// $btn-padding-x-lg: 3rem;
+
+
+$input-btn-padding-y: 0.75rem;
+$input-btn-padding-x: 3rem;
+$spacer: 2rem;
+
+
+$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$black}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+
