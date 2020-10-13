@@ -3842,7 +3842,7 @@ input[type="button"].btn-block {
           flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #eee;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -7835,6 +7835,10 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 3rem;
 }
 
+.header__button:hover {
+  color: #fff;
+}
+
 .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
@@ -7847,5 +7851,83 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 50vh;
   width: 55px;
   height: 55px;
+}
+
+.latestProducts__section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+.product {
+  height: 290px;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 30px;
+}
+
+.card-body img {
+  max-height: 100%;
+}
+
+.product,
+.card-header,
+.card-footer {
+  border: none;
+  background-color: #eee;
+}
+
+.card-header {
+  padding-bottom: 0;
+}
+
+.card-header span {
+  border-radius: 50vh;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 500;
+}
+
+.card-footer .card-price {
+  color: #FD9C6B;
+}
+
+.productsButton {
+  color: #fff;
+}
+
+.productsButton:hover {
+  color: #FD9C6B;
+  background-color: transparent;
 }
 /*# sourceMappingURL=main.css.map */
