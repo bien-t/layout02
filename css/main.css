@@ -60,7 +60,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000;
   text-align: left;
   background-color: #fff;
 }
@@ -1916,7 +1916,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #212529;
+  color: #000;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2320,7 +2320,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #000;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -2347,7 +2347,7 @@ textarea.form-control {
 }
 
 .btn:hover {
-  color: #212529;
+  color: #000;
   text-decoration: none;
 }
 
@@ -3075,7 +3075,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: #000;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -7698,7 +7698,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #212529 !important;
+  color: #000 !important;
 }
 
 .text-muted {
@@ -7929,5 +7929,21 @@ a.text-dark:hover, a.text-dark:focus {
 .productsButton:hover {
   color: #FD9C6B;
   background-color: transparent;
+}
+
+.aboutUs .img-shadow::before {
+  width: 50%;
+  height: 60%;
+  background-color: #000;
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 0px;
+  z-index: -1;
+}
+
+.aboutUs h2 {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
