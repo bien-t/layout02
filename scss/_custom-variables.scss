@@ -12,6 +12,7 @@ $orange: #FD9C6B;
 $brown: #160E0B;
 $black: #000;
 $gray: #eee;
+$white: #fff;
 $primary: $orange;
 $secondary: $brown;
 $card-bg: $gray;
@@ -29,3 +30,8 @@ $spacer: 2rem;
 
 
 $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$black}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+
+$carousel-control-opacity:  1;
+$carousel-control-color: $white;
+$carousel-control-width: 45px;
+$carousel-control-hover-opacity: 1;
