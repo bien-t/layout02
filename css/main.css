@@ -8598,6 +8598,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: 100vh;
   background-size: cover;
   color: #fff;
+  background-position: top center;
 }
 
 .header__section h1 {
@@ -8609,10 +8610,22 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
 }
 
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.5rem;
+  position: relative;
+}
+
+.navbar-toggler,
+.navbar-collapse {
+  position: fixed;
 }
 
 .navbar-toggler {
@@ -8621,6 +8634,45 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 50vh;
   width: 55px;
   height: 55px;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+  right: 20px;
+}
+
+.navbar-nav {
+  height: 100vh;
+}
+
+.navbar-nav .nav-item {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+}
+
+.navbar-collapse {
+  top: 0;
+  width: 25%;
+  left: 0;
+  background-color: #160E0B;
+  z-index: 10;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    width: 50%;
+  }
+}
+
+.navbar-dark .navbar-brand {
+  color: #160E0B;
 }
 
 .latestProducts__section h2 {
@@ -8648,6 +8700,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .product .card-body img {
+  max-width: 100%;
   max-height: 100%;
 }
 
