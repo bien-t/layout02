@@ -36,8 +36,6 @@ scss/_utilities.scss
 scss/_variables.scss
 scss/bootstrap-grid.scss
 scss/bootstrap-reboot.scss
-scss/bootstrap.scss
-scss/main.scss
 scss/mixins/_alert.scss
 scss/mixins/_background-variant.scss
 scss/mixins/_badge.scss
