@@ -1,0 +1,38 @@
+.offers-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.offer__content {
+    position: absolute;
+    padding: 2em;
+
+    h3,
+    h4 {
+        color: $white;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    &--dr {
+        bottom: 0;
+        right: 0;
+    }
+
+    &--dl {
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.offer__item {
+    position: relative;
+}

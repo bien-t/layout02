@@ -1,0 +1,57 @@
+.testimonials__section {
+    @include h2-title();
+
+    .carousel {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .carousel-inner {
+        background-color: $secondary;
+        border-radius: 10px;
+        min-height: 340px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 20px 50px;
+
+        img {
+            border-radius: 50vh;
+            max-width: 145px;
+            max-width: 145px;
+            min-width: 100px;
+            min-height: 100px;
+            border: 7px solid #7f7b79;
+        }
+
+        .carousel-item {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+            font-family: $main-font;
+            font-weight: 500;
+
+            h5 {
+                color: $primary;
+            }
+        }
+    }
+
+    .carousel-controls {
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+        column-gap: 0.5em;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        background-color: $primary;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: $secondary;
+        }
+    }
+}

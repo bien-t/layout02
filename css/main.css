@@ -8671,7 +8671,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.navbar-dark .navbar-brand {
+.navbar-dark .navbar-brand--dark {
+  color: #160E0B;
+}
+
+.navbar-dark .navbar-brand--dark:hover {
   color: #160E0B;
 }
 

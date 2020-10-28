@@ -1,0 +1,14 @@
+.latestFromBlog__section {
+    @include h2-title();
+
+    h5 {
+        font-weight: bold;
+        font-family: $main-font;
+    }
+
+    .card-date {
+        @include square-icon(65px, 65px, 3px);
+        margin-top: -50px;
+        margin-left: 25px;
+    }
+}
